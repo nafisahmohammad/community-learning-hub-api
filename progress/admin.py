@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import ProgressTracking
 
-# Register your models here.
+admin.site.register(ProgressTracking)
